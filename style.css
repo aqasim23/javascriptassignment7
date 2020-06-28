@@ -1,0 +1,54 @@
+.main-body {
+    margin: auto;
+    border: solid 4px green;
+    max-width: max-content;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.buttons {
+    display: inline-block;
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.buttonempty {
+    display: inline-block;
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: default;
+    opacity: 0;
+}
+
+.buttons:hover {
+    background-color: cyan;
+}
+
+.screen {
+    text-align: right;
+    width: 238px;
+    height: 60px;
+    background-color: lightgray;
+    border: 1px solid grey;
+    font-size: larger;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: default;
+}

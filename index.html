@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versatile Calulator by Arsalan Qasim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="margin: auto; width: max-content; padding-bottom: 20px;">Calculator by Arsalan Qasim</h1>
+    <div class = "main-body">
+        <div class = "screen"><p id = "screen"></p></div>
+        <div class = "buttons" onclick="document.getElementById('screen').innerHTML = '';">C</div>
+        <div class = "buttons" onclick="backspace()">Back</div>
+        <div class = "buttonempty" onclick="writetoscreen('%')">%</div>
+        <div class = "buttons" onclick="writetoscreen('/')">/</div>
+        <div></div>
+        <div class = "buttons" onclick="writetoscreen('7')">7</div>
+        <div class = "buttons" onclick="writetoscreen('8')">8</div>
+        <div class = "buttons" onclick="writetoscreen('9')">9</div>
+        <div class = "buttons" onclick="writetoscreen('*')">x</div>
+        <div></div>
+        <div class = "buttons" onclick="writetoscreen('4')">4</div>
+        <div class = "buttons" onclick="writetoscreen('5')">5</div>
+        <div class = "buttons" onclick="writetoscreen('6')">6</div>
+        <div class = "buttons" onclick="writetoscreen('-')">-</div>
+        <div></div>
+        <div class = "buttons" onclick="writetoscreen('1')">1</div>
+        <div class = "buttons" onclick="writetoscreen('2')">2</div>
+        <div class = "buttons" onclick="writetoscreen('3')">3</div>
+        <div class = "buttons" onclick="writetoscreen('+')">+</div>
+        <div></div>
+        <div class = "buttonempty">em</div>
+        <div class = "buttons" onclick="writetoscreen('0')">0</div>
+        <div class = "buttons" onclick="writetoscreen('.')">.</div>
+        <div class = "buttons" onclick="calculate()">=</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
